@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.main_frame {
+    background-color: rgb(174, 245, 245);
+    height: 110px;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.main {
+    display: grid;
+    margin-top: -4px;
+    grid-template-columns: repeat(6, minmax(0px, 1fr));
+    column-gap: 3%;
+    row-gap: 28px;
+    padding: 5px 20px 30px;
+}
+
+.letter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: x-large;
+}
+
+.letter-Box-Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top/bottom 20px, centered horizontally */
+}
+
+.letter-display {
+    font-size: 300px;
+}
+
+.letter-box {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
