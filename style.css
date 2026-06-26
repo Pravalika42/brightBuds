@@ -39,13 +39,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     /* top/bottom 20px, centered horizontally */
 }
 
 .letter-display {
     font-size: 300px;
 }
-
+.Word-display {
+    font-size: 100px;
+}
 .letter-box {
     width: 400px;
     height: 400px;
@@ -54,4 +57,31 @@ button {
     justify-content: center;
     align-items: center;
     display: flex;
+    
+}
+.nav-buttons{
+    color: aliceblue;
+    border-radius: 8px;
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px auto;
+}
+.nav-but{
+background-color: blueviolet;
+    color: aliceblue;
+}
+.arrow{
+    width: 200px;
+    height: 200px;
+}
+.word-box{   
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: medium;
 }
