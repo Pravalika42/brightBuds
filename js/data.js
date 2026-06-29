@@ -2,14 +2,14 @@
   A: {
   colour:'#FF595E',
   words:[
-    { word: 'Apple', image: 'images/apple.png' },
-    { word: 'Ant', image: 'images/ant.png' },
-    { word: 'Aeroplane', image: 'images/aeroplane.png' },
-    { word: 'Astronaut', image: 'images/astronaut.png' },
-    { word: 'Alligator', image: 'images/alligator.png' },
-    { word: 'Axe', image: 'images/axe.png' },
-    { word: 'Arm', image: 'images/arm.png' },
-    { word: 'Ankle', image: 'images/ankle.png' }
+    { word: 'Apple', image: 'images/apple.png', sound:"Apple is red"},
+    { word: 'Ant', image: 'images/ant.png', sound:"Ant is small" },
+    { word: 'Aeroplane', image: 'images/aeroplane.png', sound:"Aeroplane is big" },
+    { word: 'Astronaut', image: 'images/astronaut.png', sound:"Astronaut is flying" },
+    { word: 'Alligator', image: 'images/alligator.png', sound:"Apple is swimming" },
+    { word: 'Axe', image: 'images/axe.png', sound:"Apple is " },
+    { word: 'Arm', image: 'images/arm.png', sound:"Apple is red" },
+    { word: 'Ankle', image: 'images/ankle.png', sound:"Apple is red" }
   ]},
   B: {
   colour:'#1982C4',

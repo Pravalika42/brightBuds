@@ -47,13 +47,13 @@ button {
     font-size: 300px;
 }
 .Word-display {
-    font-size: 100px;
+    font-size: 40px;
 }
 .letter-box {
     width: 400px;
     height: 400px;
     background-color: yellow;
-    margin: 20px auto;
+    margin: 20px 40px ;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -79,9 +79,16 @@ background-color: blueviolet;
     width: 400px;
     height: 400px;
     background-color: yellow;
-    margin: 20px auto;
+    margin: 70px auto auto auto;
     justify-content: center;
     align-items: center;
     display: flex;
     font-size: medium;
+    flex-direction: column;
+}
+
+.wordimage{
+    width: 200px;
+    height: 200px;
+margin: 5px;
 }
