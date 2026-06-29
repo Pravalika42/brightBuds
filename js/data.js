@@ -1,303 +1,329 @@
- export const alphabetData = {
+export const alphabetData = {
   A: {
-  colour:'#FF595E',
-  words:[
-    { word: 'Apple', image: 'images/apple.png', sound:"Apple is red"},
-    { word: 'Ant', image: 'images/ant.png', sound:"Ant is small" },
-    { word: 'Aeroplane', image: 'images/aeroplane.png', sound:"Aeroplane is big" },
-    { word: 'Astronaut', image: 'images/astronaut.png', sound:"Astronaut is flying" },
-    { word: 'Alligator', image: 'images/alligator.png', sound:"Apple is swimming" },
-    { word: 'Axe', image: 'images/axe.png', sound:"Apple is " },
-    { word: 'Arm', image: 'images/arm.png', sound:"Apple is red" },
-    { word: 'Ankle', image: 'images/ankle.png', sound:"Apple is red" }
-  ]},
+    colour: '#FF595E',
+    words: [
+      { word: 'Apple', image: 'images/apple.png', sound: "Apple is red" },
+      { word: 'Ant', image: 'images/ant.png', sound: "Ant is small" },
+      { word: 'Aeroplane', image: 'images/aeroplane.png', sound: "Aeroplane is big" },
+      { word: 'Astronaut', image: 'images/astronaut.png', sound: "Astronaut is flying" },
+      { word: 'Alligator', image: 'images/alligator.png', sound: "Apple is swimming" },
+      { word: 'Axe', image: 'images/axe.png', sound: "Apple is " },
+      { word: 'Arm', image: 'images/arm.png', sound: "Apple is red" },
+      { word: 'Ankle', image: 'images/ankle.png', sound: "Apple is red" }
+    ]
+  },
   B: {
-  colour:'#1982C4',
-  words:[
-    { word: 'Ball', image: 'images/ball.png' },
-    { word: 'Bat', image: 'images/bat.png' },
-    { word: 'Boy', image: 'images/boy.png' },
-    { word: 'Baby', image: 'images/baby.png' },
-    { word: 'Basket', image: 'images/basket.png' },
-    { word: 'Bowl', image: 'images/bowl.png' },
-    { word: 'Bus', image: 'images/bus.png' },
-    { word: 'Bicycle', image: 'images/bicycle.png' },
-    { word: 'Book', image: 'images/book.png' },
-    { word: 'Bee', image: 'images/bee.png' },
-    { word: 'Bear', image: 'images/bear.png' },
-    { word: 'Banana', image: 'images/banana.png' },
-    { word: 'Bread', image: 'images/bread.png' },
-    { word: 'Bed', image: 'images/bed.png' },
-    { word: 'Bird', image: 'images/bird.png' },
-    { word: 'Blue', image: 'images/blue.png' },
-    { word: 'Black', image: 'images/black.png' },
-    { word: 'Bubble', image: 'images/bubble.png' },
-    { word: 'Button', image: 'images/button.png' },
-    { word: 'Bunny', image: 'images/bunny.png' }
-  ]},
+    colour: '#1982C4',
+    words: [
+      { word: 'Ball', image: 'images/ball.png' },
+      { word: 'Bat', image: 'images/bat.png' },
+      { word: 'Boy', image: 'images/boy.png' },
+      { word: 'Baby', image: 'images/baby.png' },
+      { word: 'Basket', image: 'images/basket.png' },
+      { word: 'Bowl', image: 'images/bowl.png' },
+      { word: 'Bus', image: 'images/bus.png' },
+      { word: 'Bicycle', image: 'images/bicycle.png' },
+      { word: 'Book', image: 'images/book.png' },
+      { word: 'Bee', image: 'images/bee.png' },
+      { word: 'Bear', image: 'images/bear.png' },
+      { word: 'Banana', image: 'images/banana.png' },
+      { word: 'Bread', image: 'images/bread.png' },
+      { word: 'Bed', image: 'images/bed.png' },
+      { word: 'Bird', image: 'images/bird.png' },
+      { word: 'Blue', image: 'images/blue.png' },
+      { word: 'Black', image: 'images/black.png' },
+      { word: 'Bubble', image: 'images/bubble.png' },
+      { word: 'Button', image: 'images/button.png' },
+      { word: 'Bunny', image: 'images/bunny.png' }
+    ]
+  },
   C: {
-  colour:'#FFCA3A',
-  words:[
-    { word: 'Cat', image: 'images/cat.png' },
-    { word: 'Cow', image: 'images/cow.png' },
-    { word: 'Car', image: 'images/car.png' },
-    { word: 'Cup', image: 'images/cup.png' },
-    { word: 'Cake', image: 'images/cake.png' },
-    { word: 'Candle', image: 'images/candle.png' },
-    { word: 'Clock', image: 'images/clock.png' },
-    { word: 'Cloud', image: 'images/cloud.png' },
-    { word: 'Circle', image: 'images/circle.png' },
-    { word: 'Chair', image: 'images/chair.png' },
-    { word: 'Cheeks', image: 'images/cheeks.png' },
-    { word: 'Chin', image: 'images/chin.png' },
-    { word: 'Chest', image: 'images/chest.png' },
-    { word: 'Carrot', image: 'images/carrot.png' },
-    { word: 'Cabbage', image: 'images/cabbage.png' },
-    { word: 'Corn', image: 'images/corn.png' },
-    { word: 'Crab', image: 'images/crab.png' },
-    { word: 'Crow', image: 'images/crow.png' },
-    { word: 'Chicken', image: 'images/chicken.png' },
-  
-    { word: 'Candy', image: 'images/candy.png' }
-  ]},
+    colour: '#FFCA3A',
+    words: [
+      { word: 'Cat', image: 'images/cat.png' },
+      { word: 'Cow', image: 'images/cow.png' },
+      { word: 'Car', image: 'images/car.png' },
+      { word: 'Cup', image: 'images/cup.png' },
+      { word: 'Cake', image: 'images/cake.png' },
+      { word: 'Candle', image: 'images/candle.png' },
+      { word: 'Clock', image: 'images/clock.png' },
+      { word: 'Cloud', image: 'images/cloud.png' },
+      { word: 'Circle', image: 'images/circle.png' },
+      { word: 'Chair', image: 'images/chair.png' },
+      { word: 'Cheeks', image: 'images/cheeks.png' },
+      { word: 'Chin', image: 'images/chin.png' },
+      { word: 'Chest', image: 'images/chest.png' },
+      { word: 'Carrot', image: 'images/carrot.png' },
+      { word: 'Cabbage', image: 'images/cabbage.png' },
+      { word: 'Corn', image: 'images/corn.png' },
+      { word: 'Crab', image: 'images/crab.png' },
+      { word: 'Crow', image: 'images/crow.png' },
+      { word: 'Chicken', image: 'images/chicken.png' },
+
+      { word: 'Candy', image: 'images/candy.png' }
+    ]
+  },
   D: {
-  colour:'#8AC926',
-  words:[
-    { word: 'Dog', image: 'images/dog.png' },
-    { word: 'Duck', image: 'images/duck.png' },
-    { word: 'Doll', image: 'images/doll.png' },
-    { word: 'Door', image: 'images/door.png' },
-    { word: 'Drum', image: 'images/drum.png' },
-    { word: 'Deer', image: 'images/deer.png' },
- 
-    { word: 'Dress', image: 'images/dress.png' },
-    { word: 'Dinosaur', image: 'images/dinosaur.png' },
-    { word: 'Dragon', image: 'images/dragon.png' }
-  ]},
+    colour: '#8AC926',
+    words: [
+      { word: 'Dog', image: 'images/dog.png' },
+      { word: 'Duck', image: 'images/duck.png' },
+      { word: 'Doll', image: 'images/doll.png' },
+      { word: 'Door', image: 'images/door.png' },
+      { word: 'Drum', image: 'images/drum.png' },
+      { word: 'Deer', image: 'images/deer.png' },
+
+      { word: 'Dress', image: 'images/dress.png' },
+      { word: 'Dinosaur', image: 'images/dinosaur.png' },
+      { word: 'Dragon', image: 'images/dragon.png' }
+    ]
+  },
   E: {
-   colour:'#6A4C93',
-  words:[
-    { word: 'Elephant', image: 'images/elephant.png' },
-    { word: 'Egg', image: 'images/egg.png' },
- 
-    { word: 'Eyes', image: 'images/eyes.png' },
-    { word: 'Engine', image: 'images/engine.png' },
-    { word: 'Eagle', image: 'images/eagle.png' },
-    { word: 'Earth', image: 'images/earth.png' },
-    { word: 'Eraser', image: 'images/eraser.png' }
-  ]},
+    colour: '#6A4C93',
+    words: [
+      { word: 'Elephant', image: 'images/elephant.png' },
+      { word: 'Egg', image: 'images/egg.png' },
+
+      { word: 'Eyes', image: 'images/eyes.png' },
+      { word: 'Engine', image: 'images/engine.png' },
+      { word: 'Eagle', image: 'images/eagle.png' },
+      { word: 'Earth', image: 'images/earth.png' },
+      { word: 'Eraser', image: 'images/eraser.png' }
+    ]
+  },
   F: {
-  colour:'#FF66C4',
-  words:[
-    { word: 'Fish', image: 'images/fish.png' },
- 
-    { word: 'Flower', image: 'images/flower.png' },
-    { word: 'Fingers', image: 'images/fingers.png' },
-    { word: 'Fan', image: 'images/fan.png' },
-    { word: 'Farm', image: 'images/farm.png' },
-    { word: 'Fox', image: 'images/fox.png' },
-    { word: 'Fire', image: 'images/fire.png' },
-    { word: 'Feet', image: 'images/feet.png' }
-  ]},
+    colour: '#FF66C4',
+    words: [
+      { word: 'Fish', image: 'images/fish.png' },
+
+      { word: 'Flower', image: 'images/flower.png' },
+      { word: 'Fingers', image: 'images/fingers.png' },
+      { word: 'Fan', image: 'images/fan.png' },
+      { word: 'Farm', image: 'images/farm.png' },
+      { word: 'Fox', image: 'images/fox.png' },
+      { word: 'Fire', image: 'images/fire.png' },
+      { word: 'Feet', image: 'images/feet.png' }
+    ]
+  },
   G: {
 
-  colour:'#F77F00',
-   words:[
-    { word: 'Goat', image: 'images/goat.png' },
-    { word: 'Giraffe', image: 'images/giraffe.png' },
-    { word: 'Girl', image: 'images/girl.png' },
-    { word: 'Grapes', image: 'images/grapes.png' },
-    { word: 'Guava', image: 'images/guava.png' },
-    { word: 'Green', image: 'images/green.png' },
-    { word: 'Glass', image: 'images/glass.png' },
-    { word: 'Garden', image: 'images/garden.png' },
-    { word: 'Gorilla', image: 'images/gorilla.png' }
-   ]},
+    colour: '#F77F00',
+    words: [
+      { word: 'Goat', image: 'images/goat.png' },
+      { word: 'Giraffe', image: 'images/giraffe.png' },
+      { word: 'Girl', image: 'images/girl.png' },
+      { word: 'Grapes', image: 'images/grapes.png' },
+      { word: 'Guava', image: 'images/guava.png' },
+      { word: 'Green', image: 'images/green.png' },
+      { word: 'Glass', image: 'images/glass.png' },
+      { word: 'Garden', image: 'images/garden.png' },
+      { word: 'Gorilla', image: 'images/gorilla.png' }
+    ]
+  },
   H: {
-    colour:'#00B4D8',
-  words:[
-    { word: 'Horse', image: 'images/horse.png' },
-    { word: 'Helicopter', image: 'images/helicopter.png' },
-    { word: 'House', image: 'images/house.png' },
-  
-    { word: 'Hat', image: 'images/hat.png' },
-    { word: 'Hammer', image: 'images/hammer.png' },
-    { word: 'Honey', image: 'images/honey.png' },
-    { word: 'Hen', image: 'images/hen.png' }
-  ]},
+    colour: '#00B4D8',
+    words: [
+      { word: 'Horse', image: 'images/horse.png' },
+      { word: 'Helicopter', image: 'images/helicopter.png' },
+      { word: 'House', image: 'images/house.png' },
+
+      { word: 'Hat', image: 'images/hat.png' },
+      { word: 'Hammer', image: 'images/hammer.png' },
+      { word: 'Honey', image: 'images/honey.png' },
+      { word: 'Hen', image: 'images/hen.png' }
+    ]
+  },
   I: {
- colour:'#E63946',
-  words:[
-    { word: 'Icecream', image: 'images/icecream.png' },
-    { word: 'Iron', image: 'images/iron.png' },
-    { word: 'Ink', image: 'images/ink.png' },
-    { word: 'Insect', image: 'images/insect.png' }
-  ]},
+    colour: '#E63946',
+    words: [
+      { word: 'Icecream', image: 'images/icecream.png' },
+      { word: 'Iron', image: 'images/iron.png' },
+      { word: 'Ink', image: 'images/ink.png' },
+      { word: 'Insect', image: 'images/insect.png' }
+    ]
+  },
   J: {
-  
-  colour:'#4361EE',
-   words:[
-    { word: 'Jeep', image: 'images/jeep.png' },
-    { word: 'Jacket', image: 'images/jacket.png' },
-    { word: 'Jam', image: 'images/jam.png' },
-    { word: 'Juice', image: 'images/juice.png' },
-    { word: 'Jelly', image: 'images/jelly.png' }
-  ]},
+
+    colour: '#4361EE',
+    words: [
+      { word: 'Jeep', image: 'images/jeep.png' },
+      { word: 'Jacket', image: 'images/jacket.png' },
+      { word: 'Jam', image: 'images/jam.png' },
+      { word: 'Juice', image: 'images/juice.png' },
+      { word: 'Jelly', image: 'images/jelly.png' }
+    ]
+  },
   K: {
-  
-  colour:'#FFD60A',
-   words:[
-    { word: 'Kite', image: 'images/kite.png' },
-    { word: 'King', image: 'images/king.png' },
-    { word: 'Kitten', image: 'images/kitten.png' },
-    { word: 'Key', image: 'images/key.png' },
-    { word: 'Koala', image: 'images/koala.png' }
-  ]},
+
+    colour: '#FFD60A',
+    words: [
+      { word: 'Kite', image: 'images/kite.png' },
+      { word: 'King', image: 'images/king.png' },
+      { word: 'Kitten', image: 'images/kitten.png' },
+      { word: 'Key', image: 'images/key.png' },
+      { word: 'Koala', image: 'images/koala.png' }
+    ]
+  },
   L: {
-  
-  colour:'#2DC653',
-  words:[
-    { word: 'Lemon', image: 'images/lemon.png' },
-    { word: 'Ladys Finger', image: 'images/ladys-finger.png' },
-    { word: 'Legs', image: 'images/legs.png' },
-    { word: 'Lotus', image: 'images/lotus.png' },
-    { word: 'Ladder', image: 'images/ladder.png' }
-  ]},
+
+    colour: '#2DC653',
+    words: [
+      { word: 'Lemon', image: 'images/lemon.png' },
+      { word: 'Ladys Finger', image: 'images/ladys-finger.png' },
+      { word: 'Legs', image: 'images/legs.png' },
+      { word: 'Lotus', image: 'images/lotus.png' },
+      { word: 'Ladder', image: 'images/ladder.png' }
+    ]
+  },
   M: {
-  colour:'#9D4EDD',
-  words:[
-  
-    { word: 'Mango', image: 'images/mango.png' },
-    { word: 'Milk', image: 'images/milk.png' },
-    { word: 'Mouth', image: 'images/mouth.png' },
-    { word: 'Moon', image: 'images/moon.png' },
-    { word: 'Motor Bike', image: 'images/motor-bike.png' },
-    { word: 'Mouse', image: 'images/mouse.png' }
-  ]},
+    colour: '#9D4EDD',
+    words: [
+
+      { word: 'Mango', image: 'images/mango.png' },
+      { word: 'Milk', image: 'images/milk.png' },
+      { word: 'Mouth', image: 'images/mouth.png' },
+      { word: 'Moon', image: 'images/moon.png' },
+      { word: 'Motor Bike', image: 'images/motor-bike.png' },
+      { word: 'Mouse', image: 'images/mouse.png' }
+    ]
+  },
   N: {
-  colour:'#FF4D6D',
-  words:[
-    { word: 'Nest', image: 'images/nest.png' },
-    { word: 'Net', image: 'images/net.png' },
-    { word: 'Nose', image: 'images/nose.png' },
-    { word: 'Nine', image: 'images/nine.png' },
-    { word: 'Notebook', image: 'images/notebook.png' },
-    { word: 'Nurse', image: 'images/nurse.png' },
-    { word: 'Night', image: 'images/night.png' }
-  ]},
+    colour: '#FF4D6D',
+    words: [
+      { word: 'Nest', image: 'images/nest.png' },
+      { word: 'Net', image: 'images/net.png' },
+      { word: 'Nose', image: 'images/nose.png' },
+      { word: 'Nine', image: 'images/nine.png' },
+      { word: 'Notebook', image: 'images/notebook.png' },
+      { word: 'Nurse', image: 'images/nurse.png' },
+      { word: 'Night', image: 'images/night.png' }
+    ]
+  },
   O: {
- 
-  colour:'#FB8500',
-   words:[
-    { word: 'Orange', image: 'images/orange.png' },
-    { word: 'Onion', image: 'images/onion.png' },
-    { word: 'Ostrich', image: 'images/ostrich.png' },
-    { word: 'Octopus', image: 'images/octopus.png' },
-    { word: 'Owl', image: 'images/owl.png' },
-    { word: 'Ocean', image: 'images/ocean.png' }
-   ]},
+
+    colour: '#FB8500',
+    words: [
+      { word: 'Orange', image: 'images/orange.png' },
+      { word: 'Onion', image: 'images/onion.png' },
+      { word: 'Ostrich', image: 'images/ostrich.png' },
+      { word: 'Octopus', image: 'images/octopus.png' },
+      { word: 'Owl', image: 'images/owl.png' },
+      { word: 'Ocean', image: 'images/ocean.png' }
+    ]
+  },
   P: {
-  colour:'#48CAE4',
-  words:[
-    { word: 'Parrot', image: 'images/parrot.png' },
-    { word: 'Peacock', image: 'images/peacock.png' },
-    { word: 'Penguin', image: 'images/penguin.png' },
-    { word: 'Pineapple', image: 'images/pineapple.png' },
-    { word: 'Potato', image: 'images/potato.png' },
-    { word: 'Pizza', image: 'images/pizza.png' },
- 
-    { word: 'Pillow', image: 'images/pillow.png' },
-    { word: 'Panda', image: 'images/panda.png' }
-  ]},
+    colour: '#48CAE4',
+    words: [
+      { word: 'Parrot', image: 'images/parrot.png' },
+      { word: 'Peacock', image: 'images/peacock.png' },
+      { word: 'Penguin', image: 'images/penguin.png' },
+      { word: 'Pineapple', image: 'images/pineapple.png' },
+      { word: 'Potato', image: 'images/potato.png' },
+      { word: 'Pizza', image: 'images/pizza.png' },
+
+      { word: 'Pillow', image: 'images/pillow.png' },
+      { word: 'Panda', image: 'images/panda.png' }
+    ]
+  },
   Q: {
-   colour:'#EF476F',
-  words:[
-    { word: 'Queen', image: 'images/queen.png' },
-    { word: 'Quail', image: 'images/quail.png' },
-    { word: 'Question', image: 'images/question.png' },
-    { word: 'Quilt', image: 'images/quilt.png' }
-  ]},
-  R:{
-  colour:'#06D6A0',
-  words:[
-    { word: 'Rabbit', image: 'images/rabbit.png' },
-    { word: 'Rain', image: 'images/rain.png' },
-    { word: 'Remote', image: 'images/remote.png' },
-    { word: 'Rose', image: 'images/rose.png' },
-    { word: 'Rainbow', image: 'images/rainbow.png' },
-    { word: 'Robot', image: 'images/robot.png' },
-    { word: 'Rice', image: 'images/rice.png' }
-  ]},
+    colour: '#EF476F',
+    words: [
+      { word: 'Queen', image: 'images/queen.png' },
+      { word: 'Quail', image: 'images/quail.png' },
+      { word: 'Question', image: 'images/question.png' },
+      { word: 'Quilt', image: 'images/quilt.png' }
+    ]
+  },
+  R: {
+    colour: '#06D6A0',
+    words: [
+      { word: 'Rabbit', image: 'images/rabbit.png' },
+      { word: 'Rain', image: 'images/rain.png' },
+      { word: 'Remote', image: 'images/remote.png' },
+      { word: 'Rose', image: 'images/rose.png' },
+      { word: 'Rainbow', image: 'images/rainbow.png' },
+      { word: 'Robot', image: 'images/robot.png' },
+      { word: 'Rice', image: 'images/rice.png' }
+    ]
+  },
   S: {
-  colour:'#8338EC',
-   words:[
-    { word: 'Sun', image: 'images/sun.png' },
-    { word: 'Star', image: 'images/star.png' },
-    { word: 'Shark', image: 'images/shark.png' },
-    { word: 'Sheep', image: 'images/sheep.png' },
-    { word: 'Squirrel', image: 'images/squirrel.png' },
-  
-    { word: 'School', image: 'images/school.png' },
-    { word: 'Spoon', image: 'images/spoon.png' },
-    { word: 'Sweet Potato', image: 'images/sweet-potato.png' }
-  ]},
+    colour: '#8338EC',
+    words: [
+      { word: 'Sun', image: 'images/sun.png' },
+      { word: 'Star', image: 'images/star.png' },
+      { word: 'Shark', image: 'images/shark.png' },
+      { word: 'Sheep', image: 'images/sheep.png' },
+      { word: 'Squirrel', image: 'images/squirrel.png' },
+
+      { word: 'School', image: 'images/school.png' },
+      { word: 'Spoon', image: 'images/spoon.png' },
+      { word: 'Sweet Potato', image: 'images/sweet-potato.png' }
+    ]
+  },
   T: {
- 
-  colour:'#FFBE0B',
-   words:[
-    { word: 'Tiger', image: 'images/tiger.png' },
-    { word: 'Tomato', image: 'images/tomato.png' },
-    { word: 'Tractor', image: 'images/tractor.png' },
-    { word: 'Truck', image: 'images/truck.png' },
-    { word: 'Train', image: 'images/train.png' },
-    { word: 'Tree', image: 'images/tree.png' },
-    { word: 'Table', image: 'images/table.png' },
-    { word: 'Teacher', image: 'images/teacher.png' },
- 
-    { word: 'Ten', image: 'images/ten.png' }
-  ]},
+
+    colour: '#FFBE0B',
+    words: [
+      { word: 'Tiger', image: 'images/tiger.png' },
+      { word: 'Tomato', image: 'images/tomato.png' },
+      { word: 'Tractor', image: 'images/tractor.png' },
+      { word: 'Truck', image: 'images/truck.png' },
+      { word: 'Train', image: 'images/train.png' },
+      { word: 'Tree', image: 'images/tree.png' },
+      { word: 'Table', image: 'images/table.png' },
+      { word: 'Teacher', image: 'images/teacher.png' },
+
+      { word: 'Ten', image: 'images/ten.png' }
+    ]
+  },
   U: {
-   colour:'#3A86FF',
-    words:[
-    { word: 'Umbrella', image: 'images/umbrella.png' },
-    { word: 'Unicorn', image: 'images/unicorn.png' },
-    { word: 'Uniform', image: 'images/uniform.png' }
-  ]},
+    colour: '#3A86FF',
+    words: [
+      { word: 'Umbrella', image: 'images/umbrella.png' },
+      { word: 'Unicorn', image: 'images/unicorn.png' },
+      { word: 'Uniform', image: 'images/uniform.png' }
+    ]
+  },
   V: {
-  colour:'#FF006E',
-  words:[
-    { word: 'Van', image: 'images/van.png' },
-    { word: 'Vegetables', image: 'images/vegetables.png' },
-    { word: 'Violet', image: 'images/violet.png' },
-    { word: 'Vulture', image: 'images/vulture.png' }
-  ]},
+    colour: '#FF006E',
+    words: [
+      { word: 'Van', image: 'images/van.png' },
+      { word: 'Vegetables', image: 'images/vegetables.png' },
+      { word: 'Violet', image: 'images/violet.png' },
+      { word: 'Vulture', image: 'images/vulture.png' }
+    ]
+  },
   W: {
-  colour:'#38B000',
-  words:[
-    { word: 'Whale', image: 'images/whale.png' },
-    { word: 'Watch', image: 'images/watch.png' },
-    { word: 'Water', image: 'images/water.png' },
-    { word: 'Window', image: 'images/window.png' },
-    { word: 'Wolf', image: 'images/wolf.png' },
-    { word: 'Worm', image: 'images/worm.png' }
-  ]},
+    colour: '#38B000',
+    words: [
+      { word: 'Whale', image: 'images/whale.png' },
+      { word: 'Watch', image: 'images/watch.png' },
+      { word: 'Water', image: 'images/water.png' },
+      { word: 'Window', image: 'images/window.png' },
+      { word: 'Wolf', image: 'images/wolf.png' },
+      { word: 'Worm', image: 'images/worm.png' }
+    ]
+  },
   X: {
-  colour:'#FF7B00',
-  words:[
-    { word: 'Xylophone', image: 'images/xylophone.png' }
-  ]},
+    colour: '#FF7B00',
+    words: [
+      { word: 'Xylophone', image: 'images/xylophone.png' }
+    ]
+  },
   Y: {
-  colour:'#4CC9F0',
-  words:[
-    { word: 'Yellow', image: 'images/yellow.png' },
-    { word: 'Yak', image: 'images/yak.png' },
-    { word: 'Yoyo', image: 'images/yoyo.png' }
-  ]},
+    colour: '#4CC9F0',
+    words: [
+      { word: 'Yellow', image: 'images/yellow.png' },
+      { word: 'Yak', image: 'images/yak.png' },
+      { word: 'Yoyo', image: 'images/yoyo.png' }
+    ]
+  },
   Z: {
-  colour:'#B5179E',
-  words:[
-    { word: 'Zebra', image: 'images/zebra.png' },
-    { word: 'Zoo', image: 'images/zoo.png' },
-    { word: 'Zero', image: 'images/zero.png' }
-  ]}
+    colour: '#B5179E',
+    words: [
+      { word: 'Zebra', image: 'images/zebra.png' },
+      { word: 'Zoo', image: 'images/zoo.png' },
+      { word: 'Zero', image: 'images/zero.png' }
+    ]
+  }
 };

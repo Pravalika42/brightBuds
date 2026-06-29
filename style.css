@@ -14,11 +14,12 @@ body {
 
 .main {
     display: grid;
-    margin-top: -4px;
+    margin: 8px;
     grid-template-columns: repeat(6, minmax(0px, 1fr));
     column-gap: 3%;
     row-gap: 28px;
     padding: 5px 20px 30px;
+    background-color: #FBEFEF;
 }
 
 .letter-btn {
@@ -91,4 +92,24 @@ background-color: blueviolet;
     width: 200px;
     height: 200px;
 margin: 5px;
+}
+.categories-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px auto;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px ;
 }
