@@ -22,7 +22,7 @@ else {
 
 
 nextwordfun.addEventListener("click", () => {
-    if (current_index >= words.length - 1) {
+    if (current_index >= words.length - 1) {      
     }
     else {
         current_index += 1;
@@ -54,6 +54,11 @@ function updatescreen() {
     const voices = speechSynthesis.getVoices();
     utterance.voice = voices[2];
     speechSynthesis.speak(utterance);
-
-
+if(current_index === words.length - 1){
+    const dialog = document.getElementById("myDialog");
+    dialog.showModal();
+    timeout = setTimeout(() => {
+        dialog.close();
+    }, 2000);
+}
 }
