@@ -1,19 +1,21 @@
 export const alphabetData = {
   A: {
     colour: '#FF595E',
+    sentence: ['I', 'see', 'a', 'red', 'apple'],
     words: [
       { word: 'Apple', image: 'images/apple.png', sound: "Apple is red" },
       { word: 'Ant', image: 'images/ant.png', sound: "Ant is small" },
       { word: 'Aeroplane', image: 'images/aeroplane.png', sound: "Aeroplane is big" },
       { word: 'Astronaut', image: 'images/astronaut.png', sound: "Astronaut is flying" },
-      { word: 'Alligator', image: 'images/alligator.png', sound: "Apple is swimming" },
-      { word: 'Axe', image: 'images/axe.png', sound: "Apple is " },
-      { word: 'Arm', image: 'images/arm.png', sound: "Apple is red" },
-      { word: 'Ankle', image: 'images/ankle.png', sound: "Apple is red" }
+      { word: 'Alligator', image: 'images/alligator.png', sound: "Alligator is swimming" },
+      { word: 'Axe', image: 'images/axe.png', sound: "Axe is sharp" },
+      { word: 'Arm', image: 'images/arm.png', sound: "This is my arm" },
+      { word: 'Ankle', image: 'images/ankle.png', sound: "This is my ankle" }
     ]
   },
   B: {
     colour: '#1982C4',
+    sentence: ['The', 'ball', 'is', 'round'],
     words: [
       { word: 'Ball', image: 'images/ball.png' },
       { word: 'Bat', image: 'images/bat.png' },
@@ -39,6 +41,7 @@ export const alphabetData = {
   },
   C: {
     colour: '#FFCA3A',
+    sentence: ['The', 'cat', 'is', 'soft'],
     words: [
       { word: 'Cat', image: 'images/cat.png' },
       { word: 'Cow', image: 'images/cow.png' },
@@ -59,12 +62,12 @@ export const alphabetData = {
       { word: 'Crab', image: 'images/crab.png' },
       { word: 'Crow', image: 'images/crow.png' },
       { word: 'Chicken', image: 'images/chicken.png' },
-
       { word: 'Candy', image: 'images/candy.png' }
     ]
   },
   D: {
     colour: '#8AC926',
+    sentence: ['The', 'dog', 'can', 'run'],
     words: [
       { word: 'Dog', image: 'images/dog.png' },
       { word: 'Duck', image: 'images/duck.png' },
@@ -72,7 +75,6 @@ export const alphabetData = {
       { word: 'Door', image: 'images/door.png' },
       { word: 'Drum', image: 'images/drum.png' },
       { word: 'Deer', image: 'images/deer.png' },
-
       { word: 'Dress', image: 'images/dress.png' },
       { word: 'Dinosaur', image: 'images/dinosaur.png' },
       { word: 'Dragon', image: 'images/dragon.png' }
@@ -80,10 +82,10 @@ export const alphabetData = {
   },
   E: {
     colour: '#6A4C93',
+    sentence: ['The', 'elephant', 'is', 'big'],
     words: [
       { word: 'Elephant', image: 'images/elephant.png' },
       { word: 'Egg', image: 'images/egg.png' },
-
       { word: 'Eyes', image: 'images/eyes.png' },
       { word: 'Engine', image: 'images/engine.png' },
       { word: 'Eagle', image: 'images/eagle.png' },
@@ -93,9 +95,9 @@ export const alphabetData = {
   },
   F: {
     colour: '#FF66C4',
+    sentence: ['The', 'fish', 'can', 'swim'],
     words: [
       { word: 'Fish', image: 'images/fish.png' },
-
       { word: 'Flower', image: 'images/flower.png' },
       { word: 'Fingers', image: 'images/fingers.png' },
       { word: 'Fan', image: 'images/fan.png' },
@@ -106,8 +108,8 @@ export const alphabetData = {
     ]
   },
   G: {
-
     colour: '#F77F00',
+    sentence: ['I', 'see', 'a', 'goat'],
     words: [
       { word: 'Goat', image: 'images/goat.png' },
       { word: 'Giraffe', image: 'images/giraffe.png' },
@@ -122,11 +124,11 @@ export const alphabetData = {
   },
   H: {
     colour: '#00B4D8',
+    sentence: ['The', 'horse', 'can', 'run'],
     words: [
       { word: 'Horse', image: 'images/horse.png' },
       { word: 'Helicopter', image: 'images/helicopter.png' },
       { word: 'House', image: 'images/house.png' },
-
       { word: 'Hat', image: 'images/hat.png' },
       { word: 'Hammer', image: 'images/hammer.png' },
       { word: 'Honey', image: 'images/honey.png' },
@@ -135,6 +137,7 @@ export const alphabetData = {
   },
   I: {
     colour: '#E63946',
+    sentence: ['I', 'like', 'ice', 'cream'],
     words: [
       { word: 'Icecream', image: 'images/icecream.png' },
       { word: 'Iron', image: 'images/iron.png' },
@@ -143,8 +146,8 @@ export const alphabetData = {
     ]
   },
   J: {
-
     colour: '#4361EE',
+    sentence: ['I', 'see', 'a', 'jeep'],
     words: [
       { word: 'Jeep', image: 'images/jeep.png' },
       { word: 'Jacket', image: 'images/jacket.png' },
@@ -154,8 +157,8 @@ export const alphabetData = {
     ]
   },
   K: {
-
     colour: '#FFD60A',
+    sentence: ['I', 'fly', 'my', 'kite'],
     words: [
       { word: 'Kite', image: 'images/kite.png' },
       { word: 'King', image: 'images/king.png' },
@@ -165,8 +168,8 @@ export const alphabetData = {
     ]
   },
   L: {
-
     colour: '#2DC653',
+    sentence: ['The', 'lemon', 'is', 'yellow'],
     words: [
       { word: 'Lemon', image: 'images/lemon.png' },
       { word: 'Ladys Finger', image: 'images/ladys-finger.png' },
@@ -177,8 +180,8 @@ export const alphabetData = {
   },
   M: {
     colour: '#9D4EDD',
+    sentence: ['I', 'eat', 'a', 'mango'],
     words: [
-
       { word: 'Mango', image: 'images/mango.png' },
       { word: 'Milk', image: 'images/milk.png' },
       { word: 'Mouth', image: 'images/mouth.png' },
@@ -189,6 +192,7 @@ export const alphabetData = {
   },
   N: {
     colour: '#FF4D6D',
+    sentence: ['I', 'see', 'a', 'nest'],
     words: [
       { word: 'Nest', image: 'images/nest.png' },
       { word: 'Net', image: 'images/net.png' },
@@ -200,8 +204,8 @@ export const alphabetData = {
     ]
   },
   O: {
-
     colour: '#FB8500',
+    sentence: ['I', 'eat', 'an', 'orange'],
     words: [
       { word: 'Orange', image: 'images/orange.png' },
       { word: 'Onion', image: 'images/onion.png' },
@@ -213,6 +217,7 @@ export const alphabetData = {
   },
   P: {
     colour: '#48CAE4',
+    sentence: ['I', 'see', 'a', 'parrot'],
     words: [
       { word: 'Parrot', image: 'images/parrot.png' },
       { word: 'Peacock', image: 'images/peacock.png' },
@@ -220,13 +225,13 @@ export const alphabetData = {
       { word: 'Pineapple', image: 'images/pineapple.png' },
       { word: 'Potato', image: 'images/potato.png' },
       { word: 'Pizza', image: 'images/pizza.png' },
-
       { word: 'Pillow', image: 'images/pillow.png' },
       { word: 'Panda', image: 'images/panda.png' }
     ]
   },
   Q: {
     colour: '#EF476F',
+    sentence: ['I', 'see', 'a', 'queen'],
     words: [
       { word: 'Queen', image: 'images/queen.png' },
       { word: 'Quail', image: 'images/quail.png' },
@@ -236,6 +241,7 @@ export const alphabetData = {
   },
   R: {
     colour: '#06D6A0',
+    sentence: ['I', 'see', 'a', 'rabbit'],
     words: [
       { word: 'Rabbit', image: 'images/rabbit.png' },
       { word: 'Rain', image: 'images/rain.png' },
@@ -248,21 +254,21 @@ export const alphabetData = {
   },
   S: {
     colour: '#8338EC',
+    sentence: ['I', 'see', 'the', 'sun'],
     words: [
       { word: 'Sun', image: 'images/sun.png' },
       { word: 'Star', image: 'images/star.png' },
       { word: 'Shark', image: 'images/shark.png' },
       { word: 'Sheep', image: 'images/sheep.png' },
       { word: 'Squirrel', image: 'images/squirrel.png' },
-
       { word: 'School', image: 'images/school.png' },
       { word: 'Spoon', image: 'images/spoon.png' },
       { word: 'Sweet Potato', image: 'images/sweet-potato.png' }
     ]
   },
   T: {
-
     colour: '#FFBE0B',
+    sentence: ['I', 'see', 'a', 'tiger'],
     words: [
       { word: 'Tiger', image: 'images/tiger.png' },
       { word: 'Tomato', image: 'images/tomato.png' },
@@ -272,12 +278,12 @@ export const alphabetData = {
       { word: 'Tree', image: 'images/tree.png' },
       { word: 'Table', image: 'images/table.png' },
       { word: 'Teacher', image: 'images/teacher.png' },
-
       { word: 'Ten', image: 'images/ten.png' }
     ]
   },
   U: {
     colour: '#3A86FF',
+    sentence: ['I', 'have', 'an', 'umbrella'],
     words: [
       { word: 'Umbrella', image: 'images/umbrella.png' },
       { word: 'Unicorn', image: 'images/unicorn.png' },
@@ -286,6 +292,7 @@ export const alphabetData = {
   },
   V: {
     colour: '#FF006E',
+    sentence: ['I', 'see', 'a', 'van'],
     words: [
       { word: 'Van', image: 'images/van.png' },
       { word: 'Vegetables', image: 'images/vegetables.png' },
@@ -295,6 +302,7 @@ export const alphabetData = {
   },
   W: {
     colour: '#38B000',
+    sentence: ['I', 'see', 'a', 'whale'],
     words: [
       { word: 'Whale', image: 'images/whale.png' },
       { word: 'Watch', image: 'images/watch.png' },
@@ -306,12 +314,14 @@ export const alphabetData = {
   },
   X: {
     colour: '#FF7B00',
+    sentence: ['I', 'see', 'a', 'xylophone'],
     words: [
       { word: 'Xylophone', image: 'images/xylophone.png' }
     ]
   },
   Y: {
     colour: '#4CC9F0',
+    sentence: ['I', 'like', 'the', 'colour', 'yellow'],
     words: [
       { word: 'Yellow', image: 'images/yellow.png' },
       { word: 'Yak', image: 'images/yak.png' },
@@ -320,6 +330,7 @@ export const alphabetData = {
   },
   Z: {
     colour: '#B5179E',
+    sentence: ['I', 'see', 'a', 'zebra'],
     words: [
       { word: 'Zebra', image: 'images/zebra.png' },
       { word: 'Zoo', image: 'images/zoo.png' },
