@@ -1,4 +1,4 @@
-import { alphabetData } from './data.js'
+import { alphabetData } from './data/data.js'
 document.addEventListener("DOMContentLoaded", () => {
     // your code here
     const container = document.querySelector(".main");
