@@ -1,15 +1,16 @@
 import { readingData } from "./data/scentences.js";
 let index = 0;
 let isFirst = true;
+ let celebrationTimeout
 loadSentence(index);
 function loadSentence(index) {
-    let clickedCount =0;
+    let clickedCount = 0;
     let total_words = readingData[index].words.length;
     const container = document.querySelector(".sentence-box");
-   container.innerHTML = "";
- container.style.display = "flex";
+    container.innerHTML = "";
+    container.style.display = "flex";
     readingData[index].words.forEach((word) => {
- const frame = document.createElement("div");
+        const frame = document.createElement("div");
         frame.className = "sentence-word";
         frame.style.background = "#FFBF00";
         frame.style.position = "relative";
@@ -31,7 +32,7 @@ function loadSentence(index) {
         frame.addEventListener("click", (e) => {
             button.style.opacity = 1;
             button.classList.add("pop");
-            speak(readingData[index].words);
+            speak(word);
             const tapHint = document.querySelector(".tap-hint");
             if (tapHint) tapHint.style.display = "none";
 
@@ -39,27 +40,28 @@ function loadSentence(index) {
                 alreadyClicked = true;
                 clickedCount++;
                 if (clickedCount === total_words) {
-                    setTimeout(() => {
-                        showCelebration();
-                    }, 5000);
+                    let sentence = readingData[index].speech;
+                  setTimeout(() => {
+                      speak(sentence, function () {
+                       showCelebration();
+                    });
+                  }, 3000);
                 }
             }
 
         });
         container.appendChild(frame);
     });
-       
+
 }
 function showCelebration() {
-    document.querySelector(".sentence-box").style.display = "none";
-
     const dialog = document.querySelector(".congrats-box");
     dialog.showModal();
    celebrationTimeout = setTimeout(() => {
-    dialog.close();
-    index++;
-    loadSentence(index);
-}, 6000);
+        dialog.close();
+        index++;
+        loadSentence(index);
+    }, 6000);
 }
 
 document.getElementById("closeCongrats").addEventListener("click", () => {
@@ -68,9 +70,24 @@ document.getElementById("closeCongrats").addEventListener("click", () => {
     index++
     loadSentence(index);
 });
-function speak(text) {
+function speak(text,callback) {
     speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.voice = speechSynthesis.getVoices()[2];
     speechSynthesis.speak(utterance);
+    utterance.onend = function(){
+        callback();
+    }
+}
+function saveProgress(data) {
+    localStorage.setItem(
+        "readingProgress",
+        JSON.stringify(data)
+    );
+}
+
+function getProgress() {
+    return JSON.parse(
+        localStorage.getItem("readingProgress")
+    );
 }

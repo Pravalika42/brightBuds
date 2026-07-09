@@ -25,7 +25,7 @@ export const readingData = [
     words: ["The", "bus", "moves"],
     speech: "The bus moves."
   },
-{
+  {
     id: 4,
     level: 1,
     category: "animals",
