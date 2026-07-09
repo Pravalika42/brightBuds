@@ -1,20 +1,22 @@
-import { alphabetData } from "./data/read.js";
-let letter = 'A';
-showSentence();
-function showSentence() {
-    let clickedCount = 0;
-    let isFirst = true;
-    let total_words = alphabetData[letter].sentence.length;
+import { readingData } from "./data/scentences.js";
+let index = 0;
+let isFirst = true;
+loadSentence(index);
+function loadSentence(index) {
+    let clickedCount =0;
+    let total_words = readingData[index].words.length;
     const container = document.querySelector(".sentence-box");
-    for (const index in alphabetData[letter].sentence) {
-        const frame = document.createElement("div");
+   container.innerHTML = "";
+ container.style.display = "flex";
+    readingData[index].words.forEach((word) => {
+ const frame = document.createElement("div");
         frame.className = "sentence-word";
-        frame.style.background = alphabetData[letter].colour;
+        frame.style.background = "#FFBF00";
         frame.style.position = "relative";
         frame.innerHTML = `
         <button class="word-reveal" >
         <strong>
-            ${alphabetData[letter].sentence[index]}
+            ${word}
             </strong>
         </button>`
         if (isFirst) {
@@ -29,7 +31,7 @@ function showSentence() {
         frame.addEventListener("click", (e) => {
             button.style.opacity = 1;
             button.classList.add("pop");
-            speak(alphabetData[letter].sentence[index]);
+            speak(readingData[index].words);
             const tapHint = document.querySelector(".tap-hint");
             if (tapHint) tapHint.style.display = "none";
 
@@ -45,26 +47,26 @@ function showSentence() {
 
         });
         container.appendChild(frame);
-    }
+    });
+       
 }
-
 function showCelebration() {
     document.querySelector(".sentence-box").style.display = "none";
 
     const dialog = document.querySelector(".congrats-box");
-    document.getElementById("completed-letter").textContent = letter;
     dialog.showModal();
-    setTimeout(() => {
-        document.querySelector(".congrats-box").close();
-        // navigate back to the ABC grid here
-        window.location.href = "alphabets.html";
-    }, 6000);
+   celebrationTimeout = setTimeout(() => {
+    dialog.close();
+    index++;
+    loadSentence(index);
+}, 6000);
 }
 
 document.getElementById("closeCongrats").addEventListener("click", () => {
+    clearTimeout(celebrationTimeout);
     document.querySelector(".congrats-box").close();
-    // navigate back to the ABC grid here
-    window.location.href = "alphabets.html";
+    index++
+    loadSentence(index);
 });
 function speak(text) {
     speechSynthesis.cancel();

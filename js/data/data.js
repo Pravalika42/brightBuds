@@ -175,7 +175,8 @@ export const alphabetData = {
       { word: 'Ladys Finger', image: 'images/ladys-finger.png' },
       { word: 'Legs', image: 'images/legs.png' },
       { word: 'Lotus', image: 'images/lotus.png' },
-      { word: 'Ladder', image: 'images/ladder.png' }
+      { word: 'Ladder', image: 'images/ladder.png' },
+      { word: 'Lion', image: 'images/Lion.png' }
     ]
   },
   M: {
