@@ -12,7 +12,7 @@ function loadSentence(index) {
     readingData[index].words.forEach((word) => {
         const frame = document.createElement("div");
         frame.className = "sentence-word";
-        frame.style.background = "#FFBF00";
+       frame.style.border = "1px solid #000";
         frame.style.position = "relative";
         frame.innerHTML = `
         <button class="word-reveal" >
@@ -35,20 +35,16 @@ function loadSentence(index) {
             speak(word);
             const tapHint = document.querySelector(".tap-hint");
             if (tapHint) tapHint.style.display = "none";
-
             if (!alreadyClicked) {
                 alreadyClicked = true;
                 clickedCount++;
                 if (clickedCount === total_words) {
                     let sentence = readingData[index].speech;
                   setTimeout(() => {
-                      speak(sentence, function () {
-                       showCelebration();
-                    });
+                      speak(sentence, showCelebration())
                   }, 3000);
                 }
             }
-
         });
         container.appendChild(frame);
     });
